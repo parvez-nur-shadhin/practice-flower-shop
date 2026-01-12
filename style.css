@@ -23,6 +23,8 @@
 
 
 /* Main Body  */
+
+/* -----Header Section----- */
 #heading {
     background-color: hsla(347, 74%, 61%, 0.11);
     display: flex;
@@ -46,4 +48,104 @@
     font-size: 18px;
     line-height: 30px;
     padding-top: 30px;
+}
+
+/* ----- Featured Section ----- */
+#featured {
+    width: 80%;
+    margin: 0 auto;
+    padding: 178px 240px;
+}
+#featured .featured-heading {
+    text-align: center;
+}
+#featured .featured-heading h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+}
+#featured .featured-heading p{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: hsl(0, 0%, 60%);
+    margin-top: 24px;
+}
+#featured .featured-body{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+#featured .featured-body .flowers {
+    /* width: 605px;
+    height: 464px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    padding: 40px;
+    margin: 0 auto;
+}
+#featured .featured-body .flowers img {
+    height: 40vh;
+    width: 15vw;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.first {
+    background-color: hsla(331, 67%, 39%, 0.149);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+.second {
+    background-color: hsla(183, 94%, 32%, 0.154);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.third {
+    background-color: hsla(90, 76%, 28%, 0.154);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.first, .second, .third {
+    padding: 40px;
+    padding-bottom: 0px;
+}
+#featured .featured-body .flowers a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+/* ----- Advertise Section -----  */
+#advertise {
+    width: 80%;
+    margin: 0 auto;
+}
+#advertise .add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :100px;
+    border: none;
+    background-color: hsla(0, 0%, 15%, 0.121);
+    padding: 86px 175px;
+    border-radius: 8px;
+}
+#advertise .add-container .cards{
+    text-align: center;
+}
+#advertise .add-container .cards img {
+    height: 88px;
+    width: 88px;
+}
+#advertise .add-container .cards p {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 30px;
+    padding-top: 24px;
 }
