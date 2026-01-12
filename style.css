@@ -149,3 +149,28 @@
     line-height: 30px;
     padding-top: 24px;
 }
+
+/* ----- Hot Deal Section -----  */
+#hot-deal {
+    background-color: hsla(347, 74%, 61%, 0.114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    padding:100px 400px;
+    margin-top: 128px;
+}
+#hot-deal .section-left h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #272727;
+}
+#hot-deal .section-left h3 span {
+    color: #E55473;
+}
+#hot-deal .section-left p {
+    color: hsla(0, 0%, 15%, 0.605);
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 24px;
+}
