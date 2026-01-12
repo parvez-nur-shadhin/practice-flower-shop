@@ -18,6 +18,11 @@
     background-color: #E55473;
     color: white;
     margin-top: 32px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: pink;
+    color: black;
 }
 
 
@@ -54,7 +59,7 @@
 #featured {
     width: 80%;
     margin: 0 auto;
-    padding: 178px 240px;
+    padding: 100px
 }
 #featured .featured-heading {
     text-align: center;
