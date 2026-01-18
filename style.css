@@ -216,3 +216,56 @@
     width: 100%;
 }
 
+
+/* ----- Latest Deals Section ----- */
+#latest-deals {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 128px;
+    background: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 122px 267px;
+}
+#latest-deals .container h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #272727;
+    text-align: center;
+}
+#latest-deals .container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+#input-holder {
+    max-width: 866px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+#input-holder input {
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    background-color: white;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 22px;
+    border-radius: 8px;
+}
+#input-holder button {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin: 0px;
+}
+#input-holder input::placeholder {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+}
