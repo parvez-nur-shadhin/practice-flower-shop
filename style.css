@@ -31,6 +31,8 @@
 
 /* -----Header Section----- */
 #heading {
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: hsla(347, 74%, 61%, 0.11);
     display: flex;
     align-items: center;
@@ -57,9 +59,9 @@
 
 /* ----- Featured Section ----- */
 #featured {
-    width: 80%;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 100px
+    margin-top: 178px;
 }
 #featured .featured-heading {
     text-align: center;
@@ -77,9 +79,10 @@
     margin-top: 24px;
 }
 #featured .featured-body{
+    max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 #featured .featured-body .flowers {
@@ -89,13 +92,14 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
     border: none;
     padding: 40px;
     margin: 0 auto;
 }
 #featured .featured-body .flowers img {
-    height: 40vh;
-    width: 15vw;
+    width: 100%;
+    height: 464px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
@@ -128,7 +132,7 @@
 
 /* ----- Advertise Section -----  */
 #advertise {
-    width: 80%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 #advertise .add-container {
@@ -157,6 +161,8 @@
 
 /* ----- Hot Deal Section -----  */
 #hot-deal {
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: hsla(347, 74%, 61%, 0.114);
     display: flex;
     justify-content: center;
@@ -179,3 +185,34 @@
     line-height: 30px;
     padding-top: 24px;
 }
+
+/* ----- Instagram Section ----- */
+#instagram {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 128px;
+}
+#instagram .inst-heading h1 {
+    color: #272727;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+#instagram .inst-heading p {
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    padding-top: 24px;
+}
+#instagram .pictures {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    margin-top: 48px;
+    gap: 24px;
+}
+#instagram .pictures img {
+    width: 100%;
+}
+
