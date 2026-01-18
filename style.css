@@ -32,6 +32,7 @@
 /* -----Header Section----- */
 #heading {
     max-width: 1920px;
+    width: 100%;
     margin: 0 auto;
     background-color: hsla(347, 74%, 61%, 0.11);
     display: flex;
@@ -161,6 +162,7 @@
 
 /* ----- Hot Deal Section -----  */
 #hot-deal {
+    width: 100%;
     max-width: 1920px;
     margin: 0 auto;
     background-color: hsla(347, 74%, 61%, 0.114);
@@ -168,7 +170,7 @@
     justify-content: center;
     align-items: center;
     gap: 186px;
-    padding:100px 400px;
+    padding: 100px 240px;
     margin-top: 128px;
 }
 #hot-deal .section-left h3{
@@ -268,4 +270,36 @@
 #input-holder input::placeholder {
     color: rgba(39, 39, 39, 0.6);
     font-size: 1rem;
+}
+
+/* ----- Footer Section ----- */
+#footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #111010;
+    padding: 128px 240px;
+    margin-top: 128px;
+}
+.footer-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.footer-heading span{
+    color: #E55473;
+}
+.footer-desc {
+    font-size: 1.125rem;
+    color: white;
+    line-height: 30px;
+    margin-top: 24px;
+    text-align: center;
+}
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 32px;
+    text-align: center;
 }
